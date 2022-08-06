@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js",
-    "start:prod": "cross-env NODE_ENV=production node server/index.js",
-    "start": "npm run build && npm run start:prod",
+    "start": "cross-env NODE_ENV=production node server/index.js",
     "build": "cross-env NODE_ENV=production webpack build --config ./webpack/webpack.pro.js"
   },
   "dependencies": {
