@@ -52,8 +52,4 @@ module.exports = require("./webpack.base")({
       inject: true,
     }),
   ],
-  performance: {
-    assetFilter: (assetFilename) =>
-      !/(\.map$)|(^(main\.|favicon\.))/.test(assetFilename),
-  },
 });
