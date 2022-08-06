@@ -2,6 +2,7 @@
   "name": "react-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js",
